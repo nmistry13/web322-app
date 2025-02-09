@@ -1,0 +1,72 @@
+/**
+WEB322 - Assignment 2
+I declare that this assignment is my own work in accordance with Seneca Academic Policy.
+No part of this assignment has been copied manually or electronically from any other source
+(including web sites, friends, GPT, or otherwise) or distributed to other students.
+I understand that if caught doing so, I will receive zero on this assignment and possibly
+fail the entire course.
+Name: Nidhi Mistry
+Student ID: 147155196
+Date: Saturday 8 February 2025
+Vercel Web App URL:https://web-322-assign-two.vercel.app/about
+GitHub Repository URL: https://github.com/nmistry13/web322-app.git
+**/
+
+/* Apply a custom font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Add red borders around sections */
+.about-section, .coming-soon-section, .comic-books {
+    border: 3px solid red;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+/* Style for the education image */
+.education-img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Comic Books Section */
+.comic-books {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.comic-books img {
+    width: 200px;
+    height: auto;
+    border: 2px solid red;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.comic-books img:hover {
+    transform: scale(1.1);
+}
+
+/* Make navbar fixed for better UX */
+.navbar {
+    border-bottom: 3px solid red;
+}
+
+/* Add some spacing */
+.container {
+    margin-top: 20px;
+}

@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -7,34 +7,35 @@
     <title>About</title>
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        .border-red {
+            border: 3px solid red;
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        .comic-images img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-            Web322 – Assignment 2 – Nidhi Mistry - 147155196
-        </a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border-red">
+        <a class="navbar-brand" href="#">Web322 – Assignment 2 – Nidhi Mistry - 147155196</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="/shop">Shop</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/items">Items</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/categories">Categories</a>
-                </li>
+                <li class="nav-item"><a class="nav-link" href="/shop">Shop</a></li>
+                <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="/items">Items</a></li>
+                <li class="nav-item"><a class="nav-link" href="/categories">Categories</a></li>
             </ul>
         </div>
     </nav>
@@ -43,20 +44,22 @@
     <div class="container mt-5">
         <div class="row">
             <!-- Left Column (About) -->
-            <div class="col-md-6">
+            <div class="col-md-6 border-red">
                 <h2>About</h2>
                 <p>
-                    Hello! I'm Nidhi Mistry, a student studying Computer Programming Analysis, and I am currenly in my Third semester. I am taking WEB322 class which is a Web developing class. 
-                    I like to paint, do art, build legos and read comic books!
+                    Hello! I'm Nidhi Mistry, a student studying Computer Programming Analysis, currently in my third semester.
+                    I am taking the WEB322 class, which focuses on web development. I enjoy painting, art, building Legos, and reading comic books!
                 </p>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNL-oDzfE5mXtyQmqfv6cgEASM3ZkzoUpJ5Q&s"
+                     alt="Education" class="img-fluid border-red">
             </div>
 
-            <!-- Right Column (Coming Soon) -->
-            <div class="col-md-6">
-                <h2>Coming Soon</h2>
-                <p>
-                    Stay tuned for future updates... We're working hard to bring new features to the site!
-                </p>
+            <!-- Right Column (Comics) -->
+            <div class="col-md-6 border-red comic-images">
+                <h2>Comics I Love</h2>
+                <img src="https://www.silversnail.com/cdn/shop/files/202404-0000454132_2048x.jpg?v=1732072978" alt="Comic 1">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjsB6FUiHLmThS_XQQ5QHBEvLCD_P1hiHDFA&s" alt="Comic 2">
+                <img src="https://m.media-amazon.com/images/I/71mDEdjcyuL._UF894,1000_QL80_.jpg" alt="Comic 3">
             </div>
         </div>
     </div>

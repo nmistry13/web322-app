@@ -10,8 +10,8 @@ fail the entire course.
 Name: Nidhi Mistry
 Student ID: 147155196
 Date: Saturday 8 February 2025
-Vercel Web App URL: https://web-322-two.vercel.app/
-GitHub Repository URL: https://github.com/nmistry13/WEB322
+Vercel Web App URL:https://web-322-assign-two.vercel.app/about
+GitHub Repository URL: https://github.com/nmistry13/web322-app.git
 **/
 
 const express = require('express');
